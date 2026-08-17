@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <script src="https://kit.fontawesome.com/1f0999d61e.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="escuro">
     <header>
         <nav id="menu">
             <ul>
-                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-code"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-code"></i></a></li>
+                <li><a href="" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -85,22 +85,99 @@
                             <div class="progresso" style="width: 20%;"></div>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">Git e GitHub</span>
+                            <span class="porcent">65%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">WordPress</span>
+                            <span class="porcent">85%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 85%;"></div>
+                        </div>
+                    </div>
                 </div>
-                
+                    
             </article>
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2024 - 2026</p>
+                        <h3 class="instituicao">Senac - SJRP</h3>
+                        <p class="titulacao">Ensino Médio Técnico em Informática</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">2024</p>
+                        <h3 class="instituicao">Formação Hackers do Bem</h3>
+                        <p class="titulacao">Introdução à Cibersegurança e LGPD</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">2024 - 2025</p>
+                        <h3 class="instituicao">Olimpíada de Inteligência Artificial - ONIA</h3>
+                        <p class="titulacao">Conceitos de Inteligência Artificial e Machine Learning</p>
+                    </div>
+                </div>
             </article>
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-code"></i>Projetos</h2>
-            </article>
+                <div id="projeto-container"><div id="projeto-container">
+                <!-- Projeto 01 -->
+                <div class="projeto">
+                    <img src="imagens/projeto-01-videos.jpg" alt="Projeto de Vídeos" class="foto">
+                    <div class="projeto-info">
+                        <p class="periodo">2022</p>
+                        <h3 class="titulo">Projeto de Vídeos</h3>
+                        <p>Projeto construído para treinar a inserção de vídeos em nosso site.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Projeto 02 -->
+                <div class="projeto">
+                    <img src="imagens/projeto-02-cordel.jpg" alt="Projeto Cordel" class="foto">
+                    <div class="projeto-info">
+                        <p class="periodo">2023</p>
+                        <h3 class="titulo">Projeto Cordel</h3>
+                        <p>Projeto construído para treinar efeito parallax em imagens.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Projeto 03 -->
+                <div class="projeto">
+                    <img src="imagens/projeto-03-android.jpg" alt="Projeto Android" class="foto">
+                    <div class="projeto-info">
+                        <p class="periodo">2023</p>
+                        <h3 class="titulo">Projeto Android</h3>
+                        <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                        <details class="descricao">
+                            <summary>Saiba mais</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-
+        Portifólio desenvolvido por <a href="https://www.linkedin.com/in/lucas-rocha-ia-ti/" target="_blank" rel="nofollow">Lucas Rocha</a> em 2026.
     </footer>
 
     <script src="scripts/script.js"></script>
